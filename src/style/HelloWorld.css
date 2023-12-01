@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button{
+	font: inherit;
+    background-color: cadetblue;
+    color: black;
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: inherit;
+	border: none;
+}
+
+#button:active{
+	border: 1px solid black;
+}
