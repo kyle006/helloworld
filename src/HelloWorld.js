@@ -3,7 +3,7 @@ import "./style/HelloWorld.css";
 export default function HelloWorld() {
   return (
     <main>
-      <button id="button" onClick={handleButtonClick}>Click me!</button>
+      <button id="button" onClick={handleButtonClick}>Try to Click me!</button>
     </main>
   );
 }
